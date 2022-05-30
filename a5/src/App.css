@@ -1,0 +1,220 @@
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: lightgray;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+img {
+  width: 200px; /* width of container */
+  height: 200px; /* height of container */
+  object-fit: cover;
+  border: 5px solid black;
+}
+
+body {
+  margin: 0 auto;
+  background-color: lightgray;
+}
+
+.container {
+  background-color: white;
+  border: 3px groove lightgray;
+}
+
+.row {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.col, .col-4 {
+  color: white;
+}
+
+form {
+  width: 100%;
+}
+
+form #search {
+  width: 85%;
+  float: left;
+  border-style: none;
+  border-radius: 0px;
+}
+
+form #searchButton {
+  width: 15%;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(46, 46, 221);
+  float: left;
+  border-radius: 0px;
+}
+
+.jumbotron {
+  background-color: rgb(14, 14, 77);
+}
+
+.r2 {
+  width: 100%;
+  float: left;
+  border-radius: 0px;
+}
+
+#start {
+  border-left: 6px solid rgb(46, 46, 221);
+  border-top-style: none;
+  border-radius: 0px;
+}
+
+/* #labl1 {
+  display: block;
+  background-color: white;
+  color: black;
+  font-size: medium;
+  padding-left: 20px;
+  margin-top: 10px;
+  border-left: 6px solid rgb(46, 46, 221);
+  
+}
+
+#labl2 {
+  display: block;
+  background-color: white;
+  color: black;
+  font-size: medium;
+  padding-left: 20px;
+  margin-top: 10px;
+  border-left: 6px solid orange;
+} */
+
+#end {
+  border-top-style: none;
+  border-left: 6px solid orange;
+  border-radius: 0px;
+}
+
+#rooms {
+  text-align: center;
+  border: 2px dotted black;
+}
+
+.r3 {
+  float: left;
+}
+
+.r23 {
+  float: left;
+  width: 50%;
+  text-align: center;
+  border-left: 1px solid lightgray;
+}
+
+.jumbotron select {
+  background-color: rgb(14, 14, 77);
+  color: white;
+  border: none;
+}
+
+.checked {
+  color: orange;
+}
+
+.hotel_description p:first-child {
+  font-weight: bold;
+  font-size: large;
+}
+
+.rateNo {
+
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+}
+/* min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin); */
+.hotel_img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hotel_description {
+  margin-top: 10px;
+  margin-left: -60px;
+  font-size: calc(1px + 2vmin);
+}
+
+.comparePrice select{
+  border: none;
+}
+
+.comparePrice .divI {
+  margin-top: 20px;
+  text-align: center;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  font-size: calc(1px + 2vmin);
+}
+
+.comparePrice .divI select {
+  border-top: 1px solid lightgray;
+}
+
+.hotel_views .divJ {
+  margin-top: 20px;
+  text-align: center;
+  font-size: calc(1px + 2vmin);
+}
+
+.hotel_views .divJ p {
+  color: green;
+}
+
+.divJ input {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+.divI select {
+  font-weight: bold;
+}
+
+#map {
+  height: 10vh;
+}
+
+#sort {
+  width: 80%;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+  float: left;
+  font-size: calc(1px + 2vmin);
+  
+}
+
+#i {
+  width: 20%;
+  margin-top: 10px;
+  font-size: 40px;
+  color: gray;
+  float: left;
+}
+
